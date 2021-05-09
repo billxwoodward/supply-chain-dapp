@@ -1,3 +1,31 @@
+# General
+
+solc version: "^0.4.24"
+
+Truffle Version: 7.6.3 
+
+# Project write-up - Diagrams
+All diagrams are located in project-6/diagrams.
+
+# Project write-up - Libraries
+Roles library made it easier manage AccessControl.
+Utilized in Farmer, Distributor, Retailer, and ConsumerRole contracts.
+
+# Project write-up - IPFS
+
+Not Applicable
+
+# Rinkeby Test Net Addresses
+
+FarmerRole: 0xdcd70b0f0b1ddc88a4d28e4634ccf1ea5462abf2
+DistributorRole: 0x5f4f9814b0b9a824d58ee19f144b9c7d76c2372f
+RetailerRole: 0x45b433c377755c630a4f58e5f5110e79073494ae
+ConsumerRole: 0x755369210bf196a0a608daa1780d184b49412318
+SupplyChain: 0xf9a8098b864ba3db899ebf0507496b758ae19140
+
+Transaction: 0xc221de4bce4f44f87fca8fb45b5c8fbc5f16b96e7ca1bf770c56d7ee20a8155c
+
+
 # Supply chain & data auditing
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
@@ -30,10 +58,6 @@ Give examples (to be clarified)
 A step by step series of examples that tell you have to get a development env running
 
 Clone this repository:
-
-```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
-```
 
 Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
 
